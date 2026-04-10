@@ -1,0 +1,9 @@
+{
+	"custom/storage-level":
+	{
+		"exec": "~/.config/waybar/scripts/storage.sh",
+    "format": "{}",
+		"tooltip": false,
+		"interval" : 20
+	}
+}

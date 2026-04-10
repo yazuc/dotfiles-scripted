@@ -1,0 +1,107 @@
+/**
+ * rofi -dump-theme output.
+ * Rofi version: 2.0.0
+ **/
+* {
+    main-fg:        rgba ( 217, 217, 217, 100 % );
+    select-fg:      rgba ( 38, 38, 38, 100 % );
+    main-bg:        rgba ( 38, 38, 38, 90 % );
+    main-ex:        rgba ( 89, 89, 89, 80 % );
+    select-bg:      rgba ( 166, 166, 166, 100 % );
+    main-br:        rgba ( 166, 166, 166, 100 % );
+    border-color:   transparent;
+    separatorcolor: transparent;
+}
+window {
+    enabled:          true;
+    transparency:     "real";
+    padding:          0.0000em ;
+    fullscreen:       false;
+    cursor:           "default";
+    background-color: @main-bg;
+    width:            23.0000em ;
+    border-color:     @main-br;
+    height:           30.0000em ;
+    spacing:          0.0000em ;
+}
+mainbox {
+    padding:          0.5000em ;
+    enabled:          true;
+    background-color: transparent;
+    orientation:      vertical;
+    spacing:          0.0000em ;
+    children:         [ "wallbox","listbox" ];
+}
+wallbox {
+    padding:          0.0000em ;
+    orientation:      horizontal;
+    expand:           false;
+    background-color: transparent;
+    spacing:          0.0000em ;
+    background-image: url ("/home/leozin/.config/hypr/walpapa.jpg");
+    children:         [ "wallframe","inputbar" ];
+}
+wallframe {
+    width:            5.0000em ;
+    padding:          0.0000em ;
+    expand:           false;
+    background-color: @main-bg;
+    spacing:          0.0000em ;
+    background-image: url ("/home/leozin/.config/hypr/walpapa.jpg");
+}
+inputbar {
+    padding:          0.0000em ;
+    enabled:          true;
+    background-color: @main-bg;
+    expand:           true;
+    children:         [ "entry" ];
+}
+entry {
+    padding:          1.8000em ;
+    enabled:          true;
+    background-color: transparent;
+    text-color:       @main-fg;
+}
+listbox {
+    padding:          0.0000em ;
+    orientation:      vertical;
+    background-color: transparent;
+    spacing:          0.0000em ;
+    children:         [ "dummy","listview","dummy" ];
+}
+listview {
+    cursor:           "default";
+    enabled:          true;
+    fixed-columns:    false;
+    padding:          0.5000em ;
+    cycle:            true;
+    fixed-height:     true;
+    text-color:       @main-fg;
+    lines:            11;
+    background-color: transparent;
+    columns:          1;
+    expand:           false;
+}
+dummy {
+    padding:          0.0000em ;
+    background-color: transparent;
+    spacing:          0.0000em ;
+}
+element {
+    padding:          0.5000em ;
+    enabled:          true;
+    cursor:           pointer;
+    background-color: transparent;
+    text-color:       @main-fg;
+}
+element selected.normal {
+    background-color: @select-bg;
+    text-color:       @select-fg;
+}
+element-text {
+    background-color: transparent;
+    vertical-align:   0.00;
+    cursor:           inherit;
+    horizontal-align: 0.00;
+    text-color:       inherit;
+}

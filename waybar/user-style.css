@@ -1,0 +1,23 @@
+/* User custom styles */
+#workspaces{
+
+}
+* {
+ border-radius: 0px;
+}
+box{
+ border-radius: 0px;
+}
+
+#workspaces button.active.flat.hosting-monitor.visible {
+  border-radius: 0px;
+  font-size: 1px;
+}
+label{
+ color: #ffffff;
+ border-radius:0px;
+}
+
+#workspace-label{
+  font-size:1px;
+}
