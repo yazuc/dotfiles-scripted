@@ -50,7 +50,8 @@ fi
 
 if [ -f "$DOTFILES_DIR/packages.txt" ]; then
   echo "Installing packages..."
-  sudo pacman -S --needed - <"$DOTFILES_DIR/packages.txt"
+  sudo pacman -S yay
+  sudo yay -S --needed - <"$DOTFILES_DIR/packages.txt"
 fi
 
 echo "Done."
