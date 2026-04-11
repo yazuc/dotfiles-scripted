@@ -17,3 +17,12 @@ xorg-wayland
 yay -S --needed - < packages.txt
 hyprctl setcursor ./FernCursor/index.theme 15
 /etc/sddm.conf
+
+sddm
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/03a999c7-e9ac-4a2f-a9f9-6cb1da8aff54" />
+
+applauncher
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/da03521d-d28a-4adc-8b6a-c9a22f756957" />
+
+clipboard
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/7d3df60f-893e-4257-8a4b-1338a7005084" />
