@@ -1,3 +1,5 @@
+grim
+slurp
 awww
 a52dec
 aalib
