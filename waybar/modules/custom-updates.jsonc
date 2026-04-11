@@ -1,10 +1,10 @@
 {
   "custom/updates": {
-    "exec": "hyde-shell systemupdate",
+    "exec": "../scripts/update.sh",
     "return-type": "json",
     "format": "{0}",
     "rotate": 0,
-    "on-click": "hyprctl dispatch exec -- hyde-shell systemupdate up", 
+    "on-click": "../scripts/update.sh up", 
     "interval": 86400,
     "tooltip": true,
     "signal": 20
