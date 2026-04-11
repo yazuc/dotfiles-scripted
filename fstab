@@ -1,0 +1,2 @@
+UUID=3C42C8E842C8A7CA  /mnt/NovoVolume  ntfs  defaults  0  0
+//192.168.1.16/srv   /mnt/srvhome   cifs   username=roboblaster,password=delas,uid=1000,gid=1000,iocharset=utf8   0 0
