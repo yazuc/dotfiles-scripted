@@ -1,5 +1,7 @@
 dotfiles-scripted
 
+***this was heavely based on hyde, so credits to the visuals are from Graphite Mono theme, and the sddm theme is from the github user Arnau029***
+
 cachyos options:
 Limine for boot 
 hyprland
