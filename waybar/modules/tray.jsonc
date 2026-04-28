@@ -1,5 +1,7 @@
 {
     "tray": {
-        "spacing": 5
+        "spacing": 2,
+	"icon-size": 20,
+	"scale" : 1
     }
 }

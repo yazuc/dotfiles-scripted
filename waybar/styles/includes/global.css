@@ -6,7 +6,7 @@
  base on theme and user settings
 */
 *{
-    border-radius: 0em;
+    border-radius: 5em;
     font-family: "JetBrainsMono Nerd Font";
     font-size: 10px;
 }

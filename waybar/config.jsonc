@@ -1,17 +1,17 @@
 {
     // sourced from header module //
-    "layer": "top",
+    "layer": "left",
+    "position": "top",
     "output": [
         "*"
     ],
-    "height": 39,
+    "height": 38,
     "exclusive": true,
     "reload_style_on_change": true,
     "include": [
         "$XDG_CONFIG_HOME/waybar/modules/*json*", 
         "$XDG_CONFIG_HOME/waybar/includes/includes.json" 
     ],
-    // positions generated based on config.ctl //
     "modules-left": [
         "group/pill#left1",
         "group/pill#left2"
@@ -22,7 +22,6 @@
             "cpu",
             "memory",
             "custom/cpuinfo",
-            "custom/gpuinfo",
             "custom/g703",
             "custom/weather",
             "custom/storage-level"
@@ -31,9 +30,7 @@
     "group/pill#left2": {
         "orientation": "inherit",
         "modules": [
-            "hyprland/workspaces",
-            "hyprland/window"
-
+            "hyprland/workspaces"
         ]
     },
     "modules-center": [
@@ -48,7 +45,7 @@
     "modules-right": [
         "group/pill#right1",
         "group/pill#right2",
-        "group/pill#right3",
+        "group/pill#right3"
     ],
     "group/pill#right1": {
         "orientation": "inherit",
@@ -56,6 +53,7 @@
             "backlight",
             "network",
             "pulseaudio",
+	    "custom/updates"
         ]
     },
     "group/pill#right2": {

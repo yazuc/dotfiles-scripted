@@ -4,7 +4,7 @@
         "rotate": 0,
         "tooltip": true,
         "tooltip-format": " Logout menu",
-        "on-click": "wlogout -b 6 -c 0 -r 0 -l ~/.config/wlogout/layout_1 -s ~/.config/wlogout/style_1.css",
+        "on-click": "wlogout -b 6 -c 0 -r 0 -l ~/.config/wlogout/layout_1 --css ~/.config/wlogout/style_1.css",
         "menu-actions": {
             "lock": "hyde-shell lockscreen.sh",
             "logout": "hyprctl dispatch exit 0",

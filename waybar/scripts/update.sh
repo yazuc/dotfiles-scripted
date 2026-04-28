@@ -74,7 +74,7 @@ EOF
 
 # Output for Waybar
 if [ "$upd" -eq 0 ]; then
-  echo "{\"text\":\"\", \"tooltip\":\" Packages are up to date\"}"
+  echo "{\"text\":\" \", \"tooltip\":\" Packages are up to date\"}"
 else
   echo "{\"text\":\"󰮯 $upd\", \"tooltip\":\"󱓽 Official $ofc\n󱓾 AUR $aur$fpk_disp\"}"
 fi

@@ -237,8 +237,8 @@ tooltip {
 }
 
 #tray menu * {
-    min-height: 1.6em;
-
+    min-height: 1.9em;
+    font-size:16px;
 }
 
 #tray menu separator {

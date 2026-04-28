@@ -43,7 +43,6 @@ window#waybar {
 #pill-up,
 #pill-in,
 #pill-out {
-    background-color: @main-bg;
     border-style: solid;
     border-color: @main-bg;
 }
@@ -59,21 +58,22 @@ window#waybar {
     padding-left: 0.3em;
     padding-right: 0.3em;
     margin-right: 0em;
-    color: @main-fg;
+    color: white;
     animation: ws_normal 20s ease-in-out 1;
     border-radius:0;
 }
 
 #workspaces button.active {
-    background: @wb-act-bg;
+    background: #000000;
     color: @wb-act-fg;
     margin-left: 0.3em;
     padding-left: 1.2em;
     padding-right: 1.2em;
     margin-right: 0.3em;
+    background: linear-gradient(180deg, #d7d2cc, #000000, #000000);
     animation: ws_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55, -0.68, .48, 1.682);
-    border-radius: 0; 
+    border-radius: 5em; 
 }
 
 #workspaces button:hover {
@@ -81,6 +81,7 @@ window#waybar {
     color: @wb-hvr-fg;
     animation: ws_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55, -0.68, .48, 1.682);
+    background: linear-gradient(to bottom, #d7d2cc, #304352); 
     border-radius: 0; 
 }
 
@@ -227,6 +228,10 @@ window#waybar.right button {
     border: 0em
 }
 
+#tray menu * {
+    min-height: 1.6em;
+    font-size:16px;
+}
 
 tooltip {
     /* all: unset; */
@@ -234,15 +239,6 @@ tooltip {
     color: @main-fg;
     border-width: 1em;
     border-color: @main-fg ;
-}
-
-#tray menu * {
-    min-height: 1.6em;
-
-}
-
-#tray menu separator {
-    min-height: 0.1em;
 }
 
 

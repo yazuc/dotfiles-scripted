@@ -4,14 +4,18 @@
 }
 * {
  border-radius: 0px;
+ font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+ font-size: 11px;
+ min-height:0;
 }
+
 box{
  border-radius: 0px;
 }
 
 #workspaces button.active.flat.hosting-monitor.visible {
   border-radius: 0px;
-  font-size: 1px;
+  font-size: 6px;
 }
 label{
  color: #ffffff;
@@ -21,3 +25,29 @@ label{
 #workspace-label{
   font-size:1px;
 }
+
+#tray {
+    padding: 0 10px;
+    font-size: 10px;
+}
+
+#tray > * {
+    margin-right: 5px;
+}
+
+#privacy {
+  font-size: 16px;
+}
+
+window#waybar {
+    opacity:1;
+}
+
+window#waybar {
+    background-image: url("/home/leozin/.config/waybar/gradient-perfeito1.png");
+    background-repeat: repeat-x;
+    background-size: auto 105%;
+}
+
+
+

@@ -1,6 +1,7 @@
 {
   "privacy": {
     "rotate": 0,
+    "icon-size": 5,
     "icon-spacing": 5,
     "transition-duration": 250,
     "modules": [

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for hw in /sys/class/hwmon/hwmon*; do
+  name=$(cat "$hw/name")
+
+  if [[ "$name" == "coretemp" || "$name" == "k10temp" ]]; then
+    temp=$(cat "$hw/temp1_input")
+    echo $((temp / 1000))
+    exit
+  fi
+done
+
+echo 0
