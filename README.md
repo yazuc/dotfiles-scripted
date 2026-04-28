@@ -28,3 +28,6 @@ applauncher
 
 clipboard
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/7d3df60f-893e-4257-8a4b-1338a7005084" />
+
+updated waybar
+<img width="1923" height="85" alt="image" src="https://github.com/user-attachments/assets/6c097ca2-9596-437a-9e14-b7c9b7b456e4" />
